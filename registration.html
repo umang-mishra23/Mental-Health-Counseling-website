@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Counselling</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007466;
+}
+/* Add this CSS to your existing style.css file or create a new one */
+
+/* Form styling */
+#complaint-form {
+    background-color:rgb(178, 241, 178);
+    padding: 20px;
+    border: 1px solid green;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels */
+#complaint-form label {
+    display: block;
+    margin-top: 10px;
+}
+#complaint-form input[type="text"],
+#complaint-form input[type="number"],
+#complaint-form select,
+#complaint-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+#complaint-form input[type="submit"] {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#complaint-form input[type="submit"]:hover {
+    background-color: #007466;
+}
+
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+
+/* Add hover effect to navigation items */
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: #ff6600; /* Change the color to your desired hover color */
+}
+
+/* CSS for the animated heading and GIF */
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+
+/* Add hover effect to navigation items */
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: #ff6600; /* Change the color to your desired hover color */
+}
+
+.header-content {
+    align-items: center;
+    padding: 0 20px;
+    right: 200px;
+}
+
+.stylish-heading {
+    font-family:sans-serif; /* Change 'Your Stylish Font' to the desired font name */
+    font-size: 36px;
+    background: url('your-looping.gif') repeat-x 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: textAnimation 8s linear infinite;
+}
+
+ul{
+    text-align: center;
+}
+
+h1{
+
+    font-size:60px;
+    color: #033b35; ;
+}
+#logo{
+    /* position: absolute; */
+    position:absolute;
+    top: 10px;
+    left: 25px;
+    height:140px;
+    width:150px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+    </style>
+    <header>
+        <div class="header-content">
+            <h1>Mental Health Counselling<span class="stylish-heading"></span></h1>
+            <nav id="navbar">
+                  
+               
+            </nav>
+        </div>
+    </header>
+    <section id="complaint-form2">
+        <h2>Book an appointment</h2>
+        <form id="complaint-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="place">E-mail:</label>
+            <input type="text" id="place" name="place" required><br>
+
+            <label for="pincode">Phone Number:</label>
+            <input type="text" id="pincode" name="pincode" required><br>
+
+            <label for="pincode">Region:</label>
+            <input type="text" id="pincode" name="pincode" required><br>
+
+           <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+        
+    <!-- <section id="about">
+        <h2>About Us</h2>
+        <p>we are dedicated to supporting individuals on their journey towards mental and emotional well-being. With a compassionate and client-centered approach, we offer a safe and confidential space for individuals seeking guidance, healing, and personal growth.</p>
+    </section> -->
+    
+    <section id="learn-more">
+        <h2>Learn More</h2>
+        <p>If you want to learn more about our hospital click the button below.</p>
+        <button id="learn-more-button">Learn More</button>
+    </section>
+</body>
+</html>
